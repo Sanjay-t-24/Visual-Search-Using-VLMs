@@ -101,6 +101,7 @@ Input Image | Similar Products
 :---|:---
 The first screenshot shows the input image given to the system. | ![ss1](https://github.com/user-attachments/assets/04886d01-a6ed-4b0f-9b4e-55c5b53d51b1)
 The second screenshot displays the similar products found and links to the products.| ![ss2](https://github.com/user-attachments/assets/84f2953b-81e6-407f-aff7-0fbe95045217)
+The below image classifies the chest x-ray image as normal or pneumonia. |![image](https://github.com/user-attachments/assets/121e6930-40ec-4e78-9e77-029f0c3641fb)
 
 All screenshots are stored in the `output/` folder.
 
