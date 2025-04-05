@@ -92,16 +92,15 @@ visual-search-vlm/
 
 ---
 
-## 📊 Demo
+📊 Demo
+Input Image	Similar Products
+The first screenshot shows the input image given to the system.
+![ss1](https://github.com/user-attachments/assets/04886d01-a6ed-4b0f-9b4e-55c5b53d51b1)
 
-| Query Image | Top Match | Predicted Label |
-|:-----------:|:---------:|:---------------:|
-| ![](assets/query1.jpg) | ![](assets/match1.jpg) | "Red Sneakers" |
-| ![](assets/query2.jpg) | ![](assets/match2.jpg) | "MRI Scanner Room" |
+The second screenshot displays the similar products found and links to the products.
+![ss2](https://github.com/user-attachments/assets/84f2953b-81e6-407f-aff7-0fbe95045217)
 
-*(More demo examples inside the `assets/` folder.)*
-
----
+All screenshots are stored in the output/ folder.
 
 ## 🧩 Future Work
 
