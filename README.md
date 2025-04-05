@@ -1,6 +1,6 @@
 # Visual Search using Vision-Language Models (VLM)
 
-> A Google Lens-inspired project built from scratch to perform intelligent **visual search** using **Vision-Language Models (VLM)** — enabling object detection, product recognition, and place identification.
+> A Google Lens-inspired project built from scratch to perform an intelligent **visual search** using **Vision-Language Models (VLM)** — enabling object detection, product recognition, and place identification across multiple domains.
 
 ---
 
@@ -8,22 +8,25 @@
 
 This project implements a **Visual Search** engine that accepts an image as input and outputs detailed descriptions, object identification, and potential matches from a database. It is designed to be:
 
-- **E-commerce ready**: Recognize and retrieve products based on images.
-- **Medical-field applicable**: Search and identify medical tools and places.
-- **Google Colab compatible**: Lightweight and scalable for rapid prototyping.
+- **E-commerce ready**: Recognize and retrieve products based on images, enabling seamless product discovery and recommendation.
+- **Medical-field applicable**: Search and identify medical tools, equipment, and healthcare-related places, aiding medical documentation and resource identification.
+- **Google Colab compatible**: Lightweight and scalable for rapid prototyping and easy demonstrations.
 
 We leverage **Vision-Language Models (VLM)** to bridge the gap between visual and textual understanding.
+
+> 📢 **Note**: The current demo is tailored for **e-commerce product search**, showcasing product identification and retrieval functionalities.
 
 ---
 
 ## 🛠️ Features
 
 - 🔍 **Image-to-Text Understanding**: Generate captions and labels for input images.
-- 🛒 **Product Recognition**: Match products from a given database.
+- 🛒 **Product Recognition**: Match products from a given database (for e-commerce).
+- 🏥 **Medical Image Search**: Identify and retrieve medical tools or locations from images (expandable).
 - 📍 **Place Recognition**: Identify landmarks and locations from images.
 - 🎯 **Zero-shot Learning**: Minimal or no task-specific training needed.
 - ⚡ **Lightweight Deployment**: Easily run on Google Colab or edge devices.
-- 🛡️ **Scalable**: Extendable to multiple domains like healthcare, fashion, etc.
+- 🛡️ **Scalable**: Extendable to multiple domains like healthcare, fashion, education, and more.
 
 ---
 
@@ -92,22 +95,24 @@ visual-search-vlm/
 
 ---
 
-📊 Demo
-Input Image	Similar Products
-The first screenshot shows the input image given to the system.
-![ss1](https://github.com/user-attachments/assets/04886d01-a6ed-4b0f-9b4e-55c5b53d51b1)
+📊 **Demo (E-commerce Focused)**
 
-The second screenshot displays the similar products found and links to the products.
-![ss2](https://github.com/user-attachments/assets/84f2953b-81e6-407f-aff7-0fbe95045217)
+Input Image | Similar Products
+:---|:---
+The first screenshot shows the input image given to the system. | ![ss1](https://github.com/user-attachments/assets/04886d01-a6ed-4b0f-9b4e-55c5b53d51b1)
+The second screenshot displays the similar products found and links to the products. | ![ss2](https://github.com/user-attachments/assets/84f2953b-81e6-407f-aff7-0fbe95045217)
 
-All screenshots are stored in the output/ folder.
+All screenshots are stored in the `output/` folder.
+
+---
 
 ## 🧩 Future Work
 
-- Integrate **multimodal retrieval** (image + text based search).
+- Expand the database for **medical image search** (medical tools, healthcare places).
+- Integrate **multimodal retrieval** (image + text-based search).
 - Optimize for **edge deployment** (TensorFlow Lite, ONNX).
-- Expand database for **medical image search**.
-- Build a **full-stack application** with real-time upload and search.
+- Build a **full-stack application** with real-time upload and search capabilities.
+- Enhance cross-domain support for applications beyond e-commerce and healthcare.
 
 ---
 
@@ -133,5 +138,3 @@ This project is licensed under the [MIT License](LICENSE).
 - [OpenAI CLIP](https://github.com/openai/CLIP)
 - [Salesforce BLIP](https://github.com/salesforce/BLIP)
 - [FAISS by Facebook AI](https://github.com/facebookresearch/faiss)
-
----
